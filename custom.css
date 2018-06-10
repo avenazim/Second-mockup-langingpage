@@ -1,0 +1,95 @@
+*{
+    font-family: 'Advent Pro', sans-serif;
+    /*border: 2px solid red;*/
+}
+.mainimg{
+    background-image: url("./img/background.jpeg");
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.5;
+    height: 40vh;
+    width: 100%;
+    text-align: center;
+    overflow: hidden;
+}
+.mainimg p:first-child{
+    padding-top: 15px;
+    font-size: 4vw;
+    background: none;
+    
+}
+.mainimg p:last-child{
+    padding-bottom: 15px;
+    font-size: 2vw;
+    background: none;
+}
+
+header{
+    border: solid 2px #ececec;
+    display: inline-table;
+    text-align: center;
+}
+
+nav a{
+    color: #339999;
+    font-size: 15px;
+    -webkit-transition: all 2s ease-out;
+    -moz-transition: all 2s ease-out;
+    -ms-transition: all 2s ease-out;
+    -o-transition: all 2s ease-out;
+    transition: all 2s ease-out;
+}
+
+.active{
+    color: #006666;
+    font-size: 20px;
+}
+section{
+    display: inline-table;
+    text-align: justify;
+}
+.thirdbox{
+    border: solid 2px #ffcccc;
+}
+section h2{
+    text-align: center;
+}
+section h1{
+    text-align: center;
+    font-weight: 200;
+    color: #cc6666;
+}
+#t1{border: solid 1px #ececec;padding: 4%;}
+#t2{border: solid 1px #f1f1f1;padding: 4%;}
+#t21{padding: 4%; border: solid 1px #ffcccc;}
+#t21 img{border-radius: 50%; padding: 2% 25%; max-height: 100%; max-width: 100%;}
+#t22{border: ridge 1px #cc9999;padding: 4%;background: 	#ffcccc; opacity: 0.5;}
+#t23{padding: 4%; border: solid 1px #ffcccc;}
+
+.nextimg{
+    background-image: url("./img/candy.jpg");
+    background-position: center;
+    background-attachment: fixed;
+    opacity: 0.5;
+    height: 40vh;
+    width: auto;
+    text-align: center;
+    overflow: hidden;   
+}
+.nextimg p{
+    padding: 5%;
+    font-size: 5vw;
+    background: none;
+    text-transform: uppercase;
+    opacity: 1;
+}
+.button1{background-color: #EAADEA;color: #8E236B; padding: 15px 32px; text-align: center;}
+.button:hover{background-color: white;}
+.button2{background-color: #d7d7d7;color: black; padding: 15px 32px; text-align: center;}
+
+footer p{
+    background: #ececec;
+    color: silver;
+    text-align: center;
+    padding: 20px;
+}
