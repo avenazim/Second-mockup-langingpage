@@ -1,27 +1,26 @@
-*{
+/*{
     font-family: 'Advent Pro', sans-serif;
-    /*border: 2px solid red;*/
-}
+    border: 2px solid red;
+}*/
 .mainimg{
     background-image: url("./img/background.jpeg");
     background-position: center;
     background-attachment: fixed;
     opacity: 0.5;
-    height: 40vh;
     width: 100%;
     text-align: center;
     overflow: hidden;
 }
 .mainimg p:first-child{
-    padding-top: 15px;
-    font-size: 4vw;
-    background: none;
+    padding-top: 10%;
+    font-size: 8vw;
+    font-family: sans-serif;
+    font-weight: 600;
     
 }
 .mainimg p:last-child{
-    padding-bottom: 15px;
-    font-size: 2vw;
-    background: none;
+    padding-bottom: 10%;
+    font-size: 3vw;
 }
 
 header{
@@ -33,11 +32,13 @@ header{
 nav a{
     color: #339999;
     font-size: 15px;
-    -webkit-transition: all 2s ease-out;
-    -moz-transition: all 2s ease-out;
-    -ms-transition: all 2s ease-out;
-    -o-transition: all 2s ease-out;
-    transition: all 2s ease-out;
+	text-decoration: none;
+    transition: all 1s ease-out;
+}
+nav a:hover{
+	font-size: 20px;
+	color: cadetblue;
+	text-decoration: none;
 }
 
 .active{
@@ -48,48 +49,63 @@ section{
     display: inline-table;
     text-align: justify;
 }
-.thirdbox{
-    border: solid 2px #ffcccc;
-}
 section h2{
     text-align: center;
+    padding: 20px 0px;
 }
 section h1{
     text-align: center;
     font-weight: 200;
     color: #cc6666;
 }
-#t1{border: solid 1px #ececec;padding: 4%;}
-#t2{border: solid 1px #f1f1f1;padding: 4%;}
-#t21{padding: 4%; border: solid 1px #ffcccc;}
-#t21 img{border-radius: 50%; padding: 2% 25%; max-height: 100%; max-width: 100%;}
-#t22{border: ridge 1px #cc9999;padding: 4%;background: 	#ffcccc; opacity: 0.5;}
-#t23{padding: 4%; border: solid 1px #ffcccc;}
+
+#t21 img{
+    border-radius: 50%;
+    max-height: 100%;
+    margin: 5% 22%;
+    max-width: 100%;
+    opacity: 0.8;
+    box-shadow: 0px 20px 50px 2px powderblue;
+}
+.bootcont{padding:4%;}
 
 .nextimg{
     background-image: url("./img/candy.jpg");
     background-position: center;
     background-attachment: fixed;
     opacity: 0.5;
-    height: 40vh;
-    width: auto;
     text-align: center;
-    overflow: hidden;   
 }
 .nextimg p{
-    padding: 5%;
+    padding: 10% 0px;
     font-size: 5vw;
-    background: none;
     text-transform: uppercase;
     opacity: 1;
+    font-style: italic;
 }
-.button1{background-color: #EAADEA;color: #8E236B; padding: 15px 32px; text-align: center;}
+.content{
+	padding: 5% 0%;
+}
+.button1{background-color: #EAADEA;
+	color: #8E236B;
+	padding: 15px 32px;
+	text-align: center;
+	border-radius: 15%;
+    border: 2px solid #EAADEA;
+}
 .button:hover{background-color: white;}
-.button2{background-color: #d7d7d7;color: black; padding: 15px 32px; text-align: center;}
-
+.button2{
+	background-color: #d7d7d7;
+	color: black;
+	padding: 15px 32px;
+	text-align: center;
+	border-radius: 15%;
+    border: 2px solid #d7d7d7;
+}
 footer p{
     background: #ececec;
     color: silver;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
